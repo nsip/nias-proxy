@@ -1,0 +1,23 @@
+{
+	"test1": "Overload - Local",
+	
+	"auth": [
+		{
+			"login": "scott",
+			"password": "test",
+			"endpoint": {
+				"one": "http://theage.com.au/",
+				"two": "http://news.ycombinator.com/",
+				"three": "http://www.google.com.au/"
+			}
+		},
+		{
+			"login": "matt",
+			"password": "test",
+			"endpoint": {
+				"fred": "http://news.ycombinator.com/",
+				"smith": "http://www.google.com.au/"
+			}
+		}
+	]
+}

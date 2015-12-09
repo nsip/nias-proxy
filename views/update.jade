@@ -1,0 +1,15 @@
+extends layout
+
+block body
+  body(class="update")
+  block content
+    div(class="container")
+      section(id="content")
+        form(action="#{action}" method="POST")
+          h1 #{heading}
+          div
+            input(type="submit", value="#{update_btn_text}")
+          div(class=error ? 'error' : 'empty') #{error}
+          if output
+            div(class="output")
+              pre #{output}

@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to the #{title} application
+  p(class='notes')= notes
+  p Perhaps you meant to go to the 
+    a(href="/login") login URL?
